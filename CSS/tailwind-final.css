@@ -1268,6 +1268,11 @@ html {
   }
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .placeholder\:text-\[\#6c757d\]::-moz-placeholder{
   --tw-text-opacity: 1;
   color: rgb(108 117 125 / var(--tw-text-opacity));
@@ -1561,4 +1566,3 @@ html {
     max-width: 1280px;
   }
 }
-  
