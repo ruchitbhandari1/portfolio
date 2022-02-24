@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- cdnjs font-awesome libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="CSS/tailwind-final.css">
+  <title>Ruchit Bhandari</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="sm:bg-header z-50 w-full fixed top-0 shadow-lg">
+    <!-- navbar -->
+    <div class="navbar filter-none relative sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl hidden sm:flex justify-between items-center mx-auto p-4 lg:p-6">
+      <!-- icon on navbar -->
+      <a href="#" class="logo font-bold text-3xl text-textColor">Ruchit</a>
+      <!-- navbar menu -->
+        <div class="nav-items text-sm md:text-base text-textColor font-medium ">
+          <a href="#" class="mr-6 md:mr-10 hover:md:text-secondary">Home</a>
+          <a href="#about" class="mr-6 md:mr-10 hover:md:text-secondary">About</a>
+          <a href="#projects" class="mr-6 md:mr-10 hover:md:text-secondary">Projects</a>
+          <a href="#skills" class="mr-6 md:mr-10 hover:md:text-secondary">Skills</a>
+          <a href="#contact" class="hover:md:text-secondary">Contact</a>
+        </div>
+    </div>
+
+    <!-- hamburger button -->
+    <button
+      class="hamburger sm:hidden absolute top-8 right-12 z-10 select-none appearance-none border-none outline-none cursor-pointer">
+      <span class="block w-8 h-1 mb-1 relative bg-dark rounded-md z-10 origin-top-left duration-400"></span>
+      <span class="block w-8 h-1 mb-1 relative bg-dark rounded-md z-10 origin-top-left duration-400"></span>
+      <span class="block w-8 h-1 mb-1 relative bg-dark rounded-md z-10 origin-top-left duration-400"></span>
+    </button>
+
+    <!-- hamburger navigation -->
+    <div id="navigation" class="navigation bg-header absolute top-4 right-6 pt-12 px-12 rounded-3xl hide sm:hidden">
+        <div class="nav-items text-base text-textColor font-medium flex flex-col">
+          <a href="#" class="mr-10 hover:md:text-secondary mt-4 w-full text-center">Home</a>
+          <a href="#about" class="mr-10 hover:md:text-secondary mt-4 w-full text-center">About</a>
+          <a href="#projects" class="mr-10 hover:md:text-secondary mt-4 w-full text-center">Projects</a>
+          <a href="#skills" class="mr-10 hover:md:text-secondary mt-4 w-full text-center">Skills</a>
+          <a href="#contact" class="hover:md:text-secondary mt-4 mb-4 w-full text-center">Contact</a>
+        </div>
+    </div>
+
+  </header>
+
+  <!-- home -->
+  <section class="home relative sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl h-full mx-auto pt-40 md:pt-32 px-4 lg:px-8 mt-24 lg:mt-20" id="home">
+
+    <div class="home-container md:flex mx-auto justify-between items-center w-11/12">
+
+      <!-- information -->
+      <div class="info ">
+
+        <h3 class="text-center font-semibold leading-10">HEY!, I AM</h3>
+        <h1 class="text-center font-semibold text-5xl lg:text-6xl leading-tight">Ruchit Bhandari</h1>
+        <h2 class="text-center font-medium text-xl lg:text-2xl">I LIKE Software Development</h2>
+        <!-- Social media links -->
+        <div class="media-icons text-center mt-6">
+          <a href="https://github.com/ruchitbhandari1" target="_blank" class="mx-5 text-4xl md:text-5xl text-secondary"><i class="fab fa-github hover:md:text-hoverColor "></i></a>
+          <a href="https://www.linkedin.com/in/ruchitbhandari1/" target="_blank" class="mx-5 text-4xl md:text-5xl text-secondary"><i class="fab fa-linkedin hover:md:text-hoverColor"></i></a>
+          <a href="https://twitter.com/ruchit_bhandari" target="_blank" class="mx-5 text-4xl md:text-5xl text-secondary"><i class="fab fa-twitter hover:md:text-hoverColor"></i></a>
+          <a href="mailto:ruchitbhandari1@gmail.com" target="_blank" class="mx-5 text-4xl md:text-5xl text-secondary"><i class="fas fa-envelope hover:md:text-hoverColor"></i></a>
+        </div>
+
+      </div>
+
+      <!-- self pic -->
+      <div class="home-img hidden md:block w-4/12">
+        <img src="images/pic.jpg" class="hover:shadow-red-900" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- about -->
+  <section class="about sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl relative h-full mx-auto pt-24 md:pt-32 pb-16 mt-32" id="about">
+
+    <!-- Section Heading -->
+    <h1 class="text-center text-5xl lg:text-6xl font-semibold mt-17">About Me</h1>
+
+    <!-- about container -->
+    <div class="about-container sm:flex justify-between items-center w-full mt-8">
+
+      <!-- Personal information and resume -->
+      <div class="info w-full py-8 text-center sm:text-left sm:w-6/12 text-left text-xl lg:text-2xl font-medium mx-auto sm:my-auto">
+
+        <ul class="info-list">
+          <li class="list-item">Name: Ruchit Bhandari</li>
+          <li class="list-item">Email: ruchitbhandari1@gmail.com</li>
+          <li class="list-item">Location: Mumbai, India</li>
+        </ul>
+
+        <!-- dowload cv button -->
+        <div
+          class="btn bg-secondary text-[#fff] text-sm lg:text-base font-medium inline-block mt-12 px-6 py-3 rounded-full tracking-wide hover:md:bg-hoverColor hover:md:cursor-pointer">
+          <a href="#" target="_blank" class="text-[#fff]">Download CV</a>
+        </div>
+
+      </div>
+
+      <!-- Timeline of education -->
+      <div class="timeline w-full pl-20 pr-16 sm:p-0 sm:w-6/12 h-full relative max-w-screen-xl">
+
+        <!-- 1st education block -->
+        <div class="timeline-container py-3 px-10 relative bg-inherit mt-6 ml-5">
+          <div class="content">
+            <h2 class="text-xl lg:text-2xl font-bold">Thadomal Shahani Engineering College, Mumbai</h2>
+            <h3 class="text-sm lg:text-base font-medium mt-1">B.E in Artificial Intelligence & Data Science</h3>
+            <h4 class="text-sm lg:text-base font-light italic mt-1">(2020-24)</h4>
+          </div>
+        </div>
+
+        <!-- 2nd education block -->
+        <div class="timeline-container after:mt-12 sm:after:mt-24 py-3 px-10 relative bg-inherit mt-8 ml-5">
+          <div class="content">
+            <h2 class="text-xl lg:text-2xl font-bold">Jai Hind College, Mumbai</h2>
+            <h3 class="text-sm lg:text-base font-medium mt-1">12th, Computer Science</h3>
+            <h4 class="text-sm lg:text-base font-light italic mt-1">(2018-20)</h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- projects -->
+  <section class="projects sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl relative h-full mx-auto pt-24 md:pt-32 " id="projects">
+
+    <!-- Section Heading -->
+    <h1 class="text-center text-5xl lg:text-6xl font-semibold mt-17">Projects</h1>
+
+    <!-- Projects container -->
+    <div class="projects-container grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-x-8 sm:gap-y-8 lg:gap-x-12 grid p-12 mx-auto w-10/12">
+
+      <!-- 1st project item -->
+      <div class="project-item hover:md:scale-105 bg-header rounded-3xl relative border-4 border-red-900">
+        <div class="project-img ">
+          <img src="images/1.jpg" alt="" class="w-10/12 mx-auto my-6 object-cover block rounded-3xl border border-zinc-600">
+        </div>
+        <div class="project-info mr-6 mb-6 ml-6">
+          <h2 class="text-2xl font-bold">Project 1</h2>
+          <h3 class="mt-2 text-lg font-medium">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, id.
+          </h3>
+        </div>
+      </div>
+
+      <!-- 2nd project item -->
+      <div class="project-item hover:md:scale-105 bg-header rounded-3xl relative border-4 border-red-900">
+        <div class="project-img">
+          <img src="images/2.jpg" alt="" class="w-10/12 mx-auto my-6 object-cover block rounded-3xl border border-zinc-600">
+        </div>
+        <div class="project-info mr-6 mb-6 ml-6">
+          <h2 class="text-2xl font-bold">Project 2</h2>
+          <h3 class="mt-2 text-lg font-medium">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+        </div>
+      </div>
+
+      <!-- 3rd project item -->
+      <div class="project-item hover:md:scale-105 bg-header rounded-3xl relative border-4 border-red-900">
+        <div class="project-img">
+          <img src="images/3.jpg" alt="" class="w-10/12 mx-auto my-6 object-cover block rounded-3xl border border-zinc-600">
+        </div>
+        <div class="project-info mr-6 mb-6 ml-6">
+          <h2 class="text-2xl font-bold">Project 3</h2>
+          <h3 class="mt-2 text-lg font-medium">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, vero.
+          </h3>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- skills -->
+  <section class="skills sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl relative h-full mx-auto pt-24 md:pt-32 pb-16 md:pb-32" id="skills">
+
+    <!-- Section Heading -->
+    <h1 class="text-center text-5xl lg:text-6xl font-semibold mt-17">Skills</h1>
+
+    <!-- skills container -->
+    <div class="skills-container pt-16 mx-auto grid grid-cols-4 sm:grid-cols-5 gap-y-8 gap-x-8 sm:gap-y-12 md:gap-y-16 lg:gap-y-20 sm:gap-x-16 md:gap-x-24 lg:gap-x-28 w-10/12 lg:w-8/12">
+
+      <!-- java -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="java w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/java.png" />
+      </div>
+      <!-- js -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="javascript w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/js.png" />
+      </div>
+      <!-- c++ -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="cplusplus w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/c-.png" />
+      </div>
+      <!-- python -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="python w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/python.png" />
+      </div>
+      <!-- mysql -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="mysql w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/mysql.png" />
+      </div>
+      <!-- html5 -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="html5 w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/html-5.png" />
+      </div>
+      <!-- css3 -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="css3 w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/css-3.png" />
+      </div>
+      <!-- react -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="react w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/react.png" />
+      </div>
+      <!-- firebase -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="firebase w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/firebase.png" />
+      </div>
+      <!-- nodejs -->
+      <div class="skill-item w-16 h-16 md:w-16 lg:w-24 sm:h-12 md:h-16 lg:h-24 rounded-2xl relative">
+        <img
+          class="nodejs w-12 sm:w-8 md:w-12 lg:w-20 m-2 hover:md:scale-125 ease-in-out duration-200" src="images/nodejs.png" />
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- contact - one extra section for background color -->
+  <div class="outer bg-[#f7f7f7]">
+
+    <!-- contact -->
+    <section class="contact sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl relative h-full mx-auto pt-16 pb-16" id="contact">
+
+      <!-- section heading -->
+      <h1 class="text-center text-5xl lg:text-6xl font-semibold mt-12">Contact Me</h1>
+
+      <!-- contact container -->
+      <div class="contact-container w-9/12 lg:w-8/12 mt-12 mx-auto mb-12">
+
+        <!-- input form -->
+        <form action="" method="post" onsubmit="sendEmail(); reset(); return false;">
+
+          <!-- row 1 -->
+          <div class="row flex flex-wrap mt-4 sm:mt-8 justify-between">
+
+            <!-- row 1 column-1/1 sm:column-1/2 name -->
+            <div class="column50">
+              <input
+                class="h-12 border border-transparent shadow-lg rounded-full px-6 text-black ease duration-500 w-full font-normal text-base outline-none focus:border focus:border-[#520505] placeholder:text-[#6c757d] "
+                type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+
+            <!-- row 1 column-1/1 sm:column-2/2 email -->
+            <div class="column50 mt-8 sm:mt-0">
+              <input
+                class="h-12 border border-transparent shadow-lg rounded-full px-6 text-black ease duration-500 w-full font-normal text-base outline-none focus:border focus:border-[#520505] placeholder:text-[#6c757d] "
+                type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+
+          </div>
+
+          <!-- row 2 -->
+          <div class="row mt-8">
+            <!-- row 2 column 1/1 subject -->
+            <div class="column100">
+              <input
+                class="h-12 border border-transparent shadow-lg rounded-full px-6 text-black ease duration-500 w-full font-normal text-base outline-none focus:border focus:border-[#520505] placeholder:text-[#6c757d] "
+                type="text" id="subject" name="subject" placeholder="Subject" />
+            </div>
+
+          </div>
+
+          <!-- row 3 -->
+          <div class="row mt-8">
+            <!-- row 3 column 1/1 message textarea -->
+            <div class="column100">
+              <!-- popup -->
+              <div id="popup" class="hidden popup anime fixed text-4xl md:text-5xl lg:text-6xl"><i class="fa-solid fa-check p-4"></i></div>
+              <textarea
+                class="h-36 pt-3 resize-none border border-transparent shadow-lg px-6 text-black ease duration-500 w-full font-normal text-base outline-none focus:border focus:border-[#520505] textarea placeholder:text-[#6c757d] "
+                name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+
+          </div>
+
+          <!-- row 4 -->
+          <div class="row mt-8">
+            <!-- row 4 column 1/1 submit button -->
+            <div class="column100 last flex justify-center">
+              <button 
+                type="submit" class="btn rounded-full py-3 px-8 text-lg ease duration-200 shadow-lg tracking-wide bg-secondary text-[#fff] text-base font-medium inline-block mt-4 px-6 py-3 rounded-full tracking-wide hover:md:bg-hoverColor hover:md:cursor-pointer btn-submit">
+                Send Message</button>
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- footer -->
+  <section class="footer bg-footer ease duration-600">
+    <!-- social media icons -->
+    <div class="media-icons text-center py-4 sm:py-8">
+
+      <a class="text-gray-600 mx-5 text-4xl md:text-5xl hover:md:text-secondary" target="_blank" href="https://github.com/ruchitbhandari1">
+        <i
+          class="fab fa-github hover:md:text-hoverColor">
+        </i>
+      </a>
+
+      <a class="text-gray-600 mx-5 text-4xl md:text-5xl hover:md:text-secondary" target="_blank" href="https://www.linkedin.com/in/ruchitbhandari1/">
+        <i
+          class="fab fa-linkedin hover:md:text-hoverColor">
+        </i>
+      </a>
+
+      <a class="text-gray-600 mx-5 text-4xl md:text-5xl hover:md:text-secondary" target="_blank" href="https://twitter.com/ruchit_bhandari">
+        <i
+          class="fab fa-twitter hover:md:text-hoverColor">
+        </i>
+      </a>
+
+      <a class="text-gray-600 mx-5 text-4xl md:text-5xl hover:md:text-secondary" target="_blank" href="mailto:ruchitbhandari1@gmail.com">
+        <i
+          class="fas fa-envelope hover:md:text-hoverColor">
+        </i>
+      </a>
+
+    </div>
+
+    <!-- horizontal rule -->
+    <hr size="1" class="py-1 sm:py-2 w-10/12 border-t border-red-900 m-auto">
+
+    <!-- copyright text -->
+    <h3 class="text-sm sm:text-base pb-3 font-medium text-center">Made with <img class="inline-block w-4" src="images/heart.png"
+        alt=""> by Ruchit</h3>
+
+  </section>
+
+  <!-- smtp server js file -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- main.js file -->
+  <script src="JS/main.js"></script>
+
+</body>
+
+</html>
