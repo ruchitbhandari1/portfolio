@@ -561,9 +561,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mx-5{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .my-6{
@@ -1105,10 +1105,33 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.timeline{
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 425px) {
+  .timeline{
+    padding-left: 5rem;
+    padding-right: 4rem;
+  }
+}
+
+.projects-container{
+  padding: 1rem;
+}
+
+@media screen and (min-width: 425px) {
+  .projects-container{
+    padding: 3rem 2rem;
+  }
 }
 
 .hide{
@@ -1120,7 +1143,6 @@ html {
 }
 
 .home-container img {
-  /* clip-path: circle(); */
   border-radius: 100%;
   border: 5px solid var(--hover);
   transition: 0.2s ease-in;
@@ -1182,18 +1204,6 @@ html {
 .hamburger.is-active span:nth-child(1) {
   transform: translate(0, -1px) rotate(45deg);
 }
-
-/* .menu::before{
-  content: "";
-  width: 150px;
-  height: 200px;
-  background-color: #212121;
-  display: inline-block;
-  position: absolute;
-  opacity: 0.2;
-  top: 0;
-  right: 0;
-} */
 
 .hamburger.is-active span:nth-child(2) {
   opacity: 0;

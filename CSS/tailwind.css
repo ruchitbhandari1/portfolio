@@ -31,10 +31,33 @@ body {
   margin: 2rem 0 0 0;
   transition: 0.5s ease;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.timeline{
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 425px) {
+  .timeline{
+    padding-left: 5rem;
+    padding-right: 4rem;
+  }
+}
+
+.projects-container{
+  padding: 1rem;
+}
+
+@media screen and (min-width: 425px) {
+  .projects-container{
+    padding: 3rem 2rem;
+  }
 }
 
 .hide{
