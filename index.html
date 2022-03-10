@@ -43,16 +43,16 @@
 
       <!-- hamburger button -->
       <button
-        class="hamburger sm:hidden absolute top-8 right-12 z-100 select-none appearance-none border-none outline-none cursor-pointer"
+        class="hamburger sm:hidden absolute top-8 right-12 z-20 select-none appearance-none border-none outline-none cursor-pointer"
       >
         <i class="open fa-solid fa-bars text-3xl"></i>
-        <i class="close fa-solid fa-xmark text-4xl relative z-10 hide"></i>
+        <i class="close fa-solid fa-xmark text-4xl relative hide"></i>
       </button>
 
       <!-- hamburger navigation -->
       <div
         id="navigation"
-        class="navigation bg-header absolute top-4 right-6 pt-12 px-12 rounded-3xl hide sm:hidden"
+        class="navigation bg-header absolute z-10 top-4 right-6 pt-12 px-12 rounded-3xl hide sm:hidden"
       >
         <div
           class="ham-nav-items text-base text-textColor font-medium flex flex-col"
@@ -84,6 +84,7 @@
           >
         </div>
       </div>
+      <div class="overlay hide"></div>
     </header>
 
     <!-- home -->
